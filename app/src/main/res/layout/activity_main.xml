@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.emre.restoranrezervasyonyonetimi.MainActivity">
+
+    <EditText
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/ad"
+        android:inputType="textPersonName"
+        android:textColor="#336699"
+        android:textColorHint="#336699"
+        android:textColorLink="#ffffff"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="@string/telefon"
+        android:inputType="phone"
+        android:textColor="#336699"
+        android:textColorHint="#336699"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:id="@+id/masano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="@string/sırano"
+        android:inputType="number"
+        android:textColor="#336699"
+        android:textColorHint="#336699"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <EditText
+        android:id="@+id/tarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="@string/tarih"
+        android:inputType="date"
+        android:textColor="#336699"
+        android:textColorHint="#336699"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/girisbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:background="#336699"
+            android:padding="5dp"
+            android:text="@string/girisbutonu"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <Button
+            android:id="@+id/cikisbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:background="#336699"
+            android:padding="5dp"
+            android:text="@string/cikisbuton"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/id"
+        android:inputType="number"
+        android:textColor="#336699"
+        android:textColorHint="#336699" />
+
+    <Button
+        android:id="@+id/duzelt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="15dp"
+        android:background="#336699"
+        android:padding="5dp"
+        android:text="@string/duzelt" />
+
+    <Button
+        android:id="@+id/goster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:background="#336699"
+        android:padding="5dp"
+        android:text="@string/liste" />
+
+    <TextView
+        android:id="@+id/doluluk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:textColor="#336699"
+        android:textColorHint="#336699"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

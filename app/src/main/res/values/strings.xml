@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Restoran Rezervasyon Yonetimi</string>
+    <string name="ad">Ad-Soyad</string>
+    <string name="telefon">Telefon Numarası</string>
+    <string name="tarih">Tarih(00/00/00)</string>
+    <string name="sırano">Masa Numarası</string>
+    <string name="masasayısı">Masa Sayısı</string>
+    <string name="girisbutonu">Rezervasyon Giriş</string>
+    <string name="cikisbuton">Rezervasyon Çıkış</string>
+    <string name="goster">GÖSTER</string>
+    <string name="geri">GERİ</string>
+    <string name="duzelt">REZERVASYON DÜZELTME</string>
+    <string name="liste">LİSTELE</string>
+    <string name="id">ID</string>
+    <string name="girismetni">Restoran Rezervasyon Yönetimine Hoş Geldiniz</string>
+    <string name="doluluk">Rezervasyon Yapan Kişi Sayısı :</string>
+
+</resources>
